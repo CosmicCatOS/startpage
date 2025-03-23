@@ -43,12 +43,11 @@ class ConfigTab extends Component {
           border: 0;
           outline: 0;
           width: 100%;
-          box-shadow: inset 0 -2px #737373;
           padding: .5em 0;
           background: none;
           font: 300 16px 'Roboto', sans-serif;
           letter-spacing: 1px;
-          color: #d4be98;
+          color: #cdd6f4;
           resize: none;
           height: 300px;
           -ms-overflow-style: none;
@@ -60,8 +59,8 @@ class ConfigTab extends Component {
       }
 
       #config textarea::selection {
-          background: #e78a4e;
-          color: #32302f;
+          background: #cba6f7;
+          color: #181825;
       }
 
       #config textarea::-webkit-scrollbar {
@@ -72,13 +71,13 @@ class ConfigTab extends Component {
           background: 0;
           border: 0;
           outline: 0;
-          color: #d4be98;
+          color: #cdd6f4;
           position: absolute;
           right: 40px;
           cursor: pointer;
           top: 15px;
           font-size: 18px;
-          font-family: 'Roboto';
+          font-family: 'SF Pro Rounded', sans-serif;
       }
 
       #config .save:hover {

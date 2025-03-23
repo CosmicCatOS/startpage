@@ -3,12 +3,12 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: 'Matão, São Paulo',
-    scale: "C",
+    location: 'Hillsboro, Oregon',
+    scale: "F",
   },
   clock: {
     format: "h:i p",
-    iconColor: "#ea6962",
+    iconColor: "#cba6f7",
   },
   search: {
     engines: {
@@ -23,8 +23,8 @@ const default_config = {
     "s": "search-bar",
     "q": "config-tab",
   },
-  disabled: [],
-  localIcons: false,
+  disabled: ['todo-list', 'crypto-rate'],
+  localIcons: true,
   fastlink: "https://chat.openai.com/",
   openLastVisitedTab: true,
   tabs: [

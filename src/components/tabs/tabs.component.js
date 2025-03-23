@@ -89,9 +89,8 @@ class Tabs extends Component {
       status-bar {
           bottom: -70px;
           height: 32px;
-          background: #282828;
-          border-radius: 4px;
-          box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+          background: #181825;
+          border-radius: 8px;
       }
 
       #panels, #panels ul,
@@ -113,8 +112,7 @@ class Tabs extends Component {
           top: 0;
           bottom: 0;
           margin: auto;
-          box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-          background: #282828;
+          background: #181825;
       }
 
       .categories {
@@ -143,47 +141,47 @@ class Tabs extends Component {
       }
 
       .categories ul:nth-child(2) {
-          --flavour: #e78a4e;
+          --flavour: #cba6f7;
       }
 
       .categories ul:nth-child(3) {
-          --flavour: #ea6962;
+          --flavour: #cba6f7;
       }
 
       .categories ul:nth-child(4) {
-          --flavour: #7daea3;
+          --flavour: #cba6f7;
       }
 
       .categories ul:nth-child(5) {
-          --flavour: #d3869b;
+          --flavour: #cba6f7;
       }
 
       .categories ul:nth-child(6) {
-          --flavour: #d3869b;
+          --flavour: #cba6f7;
       }
 
       .categories ul:nth-child(7) {
-          --flavour: #a9b665;
+          --flavour: #cba6f7;
       }
 
       .categories ul:nth-child(8) {
-          --flavour: #e78a4e;
+          --flavour: #cba6f7;
       }
 
       .categories ul:nth-child(9) {
-          --flavour: #ea6962;
+          --flavour: #cba6f7;
       }
 
       .categories ul:nth-child(10) {
-          --flavour: #7daea3;
+          --flavour: #cba6f7;
       }
 
       .categories ul:nth-child(11) {
-          --flavour: #d3869b;
+          --flavour: #cba6f7;
       }
 
       .categories ul:nth-child(12) {
-          --flavour: #d3869b;
+          --flavour: #cba6f7;
       }
 
       .categories ul .links {
@@ -199,7 +197,7 @@ class Tabs extends Component {
           right: 0;
           width: 70%;
           height: 100%;
-          background: #282828;
+          background: #1e1e2e;
           padding: 5%;
           flex-wrap: wrap;
       }
@@ -209,15 +207,14 @@ class Tabs extends Component {
       }
 
       .categories ul .links a {
-          color: #d4be98;
+          color: #cdd6f4;
           text-decoration: none;
-          font: 700 18px 'Roboto', sans-serif;
+          font: 700 18px 'SF Pro Rounded', sans-serif;
           transition: all .2s;
           display: inline-flex;
           align-items: center;
           padding: .4em .7em;
-          background: #32302f;
-          box-shadow: 0 4px rgba(50, 48, 47, 0.5), 0 5px 10px rgb(0 0 0 / 20%);
+          background: #1e1e2e;
           border-radius: 2px;
           margin-bottom: .7em;
       }
@@ -267,19 +264,19 @@ class Tabs extends Component {
       }
 
       .categories .links li h1 {
-          color: #d4be98;
+          color: #cdd6f4;
 	        opacity: 0.5;
           font-size: 13px;
           margin-bottom: 1em;
           font-weight: 600;
           letter-spacing: 1px;
           text-transform: uppercase;
-          font-family: 'Raleway', sans-serif;
+          font-family: 'SF Pro Rounded', sans-serif;
       }
 
       .categories .link-icon {
           font-size: 27px;
-          color: #726f6f;
+          color: #cba6f7;
       }
 
       .categories .link-icon + .link-name {

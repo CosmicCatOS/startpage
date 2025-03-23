@@ -68,7 +68,7 @@ class Statusbar extends Component {
       #tabs ul li:not(:last-child) {
           width: 35px;
           text-align: center;
-          font: 700 13px 'Yu Gothic', serif;
+          font: 700 13px 'SF Pro Rounded', sans-serif;
           color: rgba(212, 190, 152, 0.5);
           padding: 6px 0;
           transition: all .1s;
@@ -78,7 +78,7 @@ class Statusbar extends Component {
       }
 
       #tabs ul li:not(:last-child):hover {
-          background: #32302f;
+          background: #181825;
       }
 
       #tabs ul li:last-child {
@@ -109,47 +109,47 @@ class Statusbar extends Component {
       #tabs ul li[active]:nth-child(12) ~ li:last-child { margin: 0 0 0 385px; }
 
       #tabs ul li[active]:nth-child(2) ~ li:last-child {
-          --flavour: #e78a4e;
+          --flavour: #cba6f7;
       }
 
       #tabs ul li[active]:nth-child(3) ~ li:last-child {
-          --flavour: #ea6962;
+          --flavour: #cba6f7;
       }
 
       #tabs ul li[active]:nth-child(4) ~ li:last-child {
-          --flavour: #7daea3;
+          --flavour: #cba6f7;
       }
 
       #tabs ul li[active]:nth-child(5) ~ li:last-child {
-          --flavour: #d3869b;
+          --flavour: #cba6f7;
       }
 
       #tabs ul li[active]:nth-child(6) ~ li:last-child {
-          --flavour: #89b482;
+          --flavour: #cba6f7;
       }
 
       #tabs ul li[active]:nth-child(7) ~ li:last-child {
-          --flavour: #a9b665;
+          --flavour: #cba6f7;
       }
 
       #tabs ul li[active]:nth-child(8) ~ li:last-child {
-          --flavour: #e78a4e;
+          --flavour: #cba6f7;
       }
 
       #tabs ul li[active]:nth-child(9) ~ li:last-child {
-          --flavour: #ea6962;
+          --flavour: #cba6f7;
       }
 
       #tabs ul li[active]:nth-child(10) ~ li:last-child {
-          --flavour: #7daea3;
+          --flavour: #cba6f7;
       }
 
       #tabs ul li[active]:nth-child(11) ~ li:last-child {
-          --flavour: #d3869b;
+          --flavour: #cba6f7;
       }
 
       #tabs ul li[active]:nth-child(12) ~ li:last-child {
-          --flavour: #89b482;
+          --flavour: #cba6f7;
       }
 
       .widgets {
