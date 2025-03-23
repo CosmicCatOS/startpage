@@ -214,7 +214,7 @@ class Tabs extends Component {
           display: inline-flex;
           align-items: center;
           padding: .4em .7em;
-          background: #1e1e2e;
+          background: #181825;
           border-radius: 2px;
           margin-bottom: .7em;
       }
@@ -249,7 +249,7 @@ class Tabs extends Component {
           background: linear-gradient(to top, rgb(50 48 47 / 90%), transparent);
           color: var(--flavour);
           letter-spacing: 1px;
-          font: 500 30px 'Nunito', sans-serif;
+          font: 500 30px 'SF Pro Rounded', sans-serif;
           text-align: center;
           flex-wrap: wrap;
           word-break: break-all;
