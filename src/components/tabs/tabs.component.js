@@ -197,7 +197,7 @@ class Tabs extends Component {
           right: 0;
           width: 70%;
           height: 100%;
-          background: #1e1e2e;
+          background: #181825;
           padding: 5%;
           flex-wrap: wrap;
       }
@@ -214,8 +214,8 @@ class Tabs extends Component {
           display: inline-flex;
           align-items: center;
           padding: .4em .7em;
-          background: #181825;
-          border-radius: 2px;
+          background: #1e1e2e;
+          border-radius: 8px;
           margin-bottom: .7em;
       }
 
